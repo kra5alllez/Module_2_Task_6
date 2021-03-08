@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Module_2_Task_6_Vasylchenko.Models.Enums;
+﻿using Module_2_Task_6_Vasylchenko.Models.Enums;
 
 namespace Module_2_Task_6_Vasylchenko.Models.Passenger
 {
@@ -28,6 +23,6 @@ namespace Module_2_Task_6_Vasylchenko.Models.Passenger
 
         public override double FuelConsumption => 6.5;
 
-        public override PackegeType PackegeType => PackegeType.Style;
+        public override PackegeType PackegeType => PackegeType.Lux;
     }
 }

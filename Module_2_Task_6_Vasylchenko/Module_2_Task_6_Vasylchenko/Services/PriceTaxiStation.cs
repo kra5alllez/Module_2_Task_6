@@ -1,8 +1,9 @@
 ﻿using Module_2_Task_6_Vasylchenko.Models;
+using Module_2_Task_6_Vasylchenko.Services.Abstractions;
 
 namespace Module_2_Task_6_Vasylchenko.Services
 {
-    public class PriceTaxiStation
+    public class PriceTaxiStation : IPriceTaxiStation
     {
         public double Cost(AbstractCar[] abstractCars)
         {

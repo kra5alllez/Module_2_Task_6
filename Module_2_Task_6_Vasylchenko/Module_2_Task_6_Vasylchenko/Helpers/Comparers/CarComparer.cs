@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections;
 using Module_2_Task_6_Vasylchenko.Models;
 
 namespace Module_2_Task_6_Vasylchenko.Helpers.Comparers
@@ -15,11 +10,11 @@ namespace Module_2_Task_6_Vasylchenko.Helpers.Comparers
             var x = first as AbstractCar;
             var y = second as AbstractCar;
 
-            if (x.Name.Length > y.Name.Length)
+            if (x.FuelConsumption > y.FuelConsumption)
             {
                 return 1;
             }
-            else if (x.Name.Length < y.Name.Length)
+            else if (x.FuelConsumption < y.FuelConsumption)
             {
                 return -1;
             }

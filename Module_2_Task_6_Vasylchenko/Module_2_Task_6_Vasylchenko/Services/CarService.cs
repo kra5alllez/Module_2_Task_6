@@ -2,10 +2,11 @@
 using Module_2_Task_6_Vasylchenko.Models.Enums;
 using Module_2_Task_6_Vasylchenko.Models.Passenger;
 using Module_2_Task_6_Vasylchenko.Models.SportCars;
+using Module_2_Task_6_Vasylchenko.Services.Abstractions;
 
 namespace Module_2_Task_6_Vasylchenko.Services
 {
-    public class CarService
+    public class CarService : ICarService
     {
         public CarService()
         {
